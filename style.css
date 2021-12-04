@@ -13,11 +13,6 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -37,11 +32,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .bloc-lg {
@@ -361,6 +351,12 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
