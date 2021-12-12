@@ -352,9 +352,6 @@ button {
     z-index: 2;
 }
 
-.text-modif {
-
-}
 .reco-text {
     font-size: 20px;
     font-weight: 500;
@@ -451,6 +448,11 @@ button {
 }
 .col-sm-6-foot{
     margin-top: 20px;
+}
+
+.img-responsive {
+    width: 490px;
+    object-fit: cover;
 }
 
 @media (min-width: 768px) {
@@ -1129,5 +1131,19 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .partner-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    .partner-bloc {
+        flex-direction: column;
+        background-color: blue;
+        width: 50%;
     }
 }
