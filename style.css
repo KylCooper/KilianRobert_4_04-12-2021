@@ -13,6 +13,11 @@ button {
     outline: none!important;
 }
 
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -32,6 +37,11 @@ button {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .bloc-lg {
@@ -350,123 +360,6 @@ button {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-.reco-text {
-    font-size: 20px;
-    font-weight: 500;
-    font-style: italic;
-}
-.reco-text-sub {
-    font-size: 15px;
-    font-weight: 500;
-    color: black;
-}
-.partner-title {
-    font-size: 18px;
-    margin-left: 8%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-weight: 800;
-}
-.partner-bloc {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-right: 10px;
-    font-size: 15px;
-}
-
-.teste {
-    font-weight: 700;
-}
-#bloc-8{
-    background-color: #303030;
-}
-.icon-md {
-    margin-top: 30px;
-}
-
-.nav-bar-2 {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 20%;
-}
-.nav-2-text{
-    text-decoration: none;
-    font-size: 17px;
-    margin-right: 20px;
-}
-#bloc-6{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.col-sm-12-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.title-12 {
-    font-size: 40px;
-    margin-top: -25px;
-    z-index: 1;
-}
-.mg-lg{
-    font-size: 20px;
-    z-index: 1;
-}
-#bloc-7 {
-    display: flex;
-    justify-content: center;
-}
-.row-6 {
-    display: flex;
-    flex-direction: column;
-}
-#form_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 500px;
-}
-.form-group{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.form-control{
-    width: 250px;
-    margin-left: 50px;
-}
-.second{
-    display: flex;
-    flex-direction: column;
-}
-#message{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-.col-sm-6-foot{
-    margin-top: 20px;
-}
-
-.img-responsive {
-    width: 490px;
-    object-fit: cover;
-}
-.btn-atomic {
-    background-color: #303030;
-}
-
-.font-modif {
-    font-size: 14px;
-
 }
 
 @media (min-width: 768px) {
@@ -925,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1146,19 +1039,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-
-    .partner-title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 60px;
-        margin-bottom: 50px;
-        margin-left: 0;
-    }
-    .partner-bloc {
-        flex-direction: column;
-        margin-left: 60px;
-        height: 150px;
-    }
-
 }
