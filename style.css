@@ -377,6 +377,7 @@ button {
     margin-right: 10px;
     font-size: 15px;
 }
+
 .teste {
     font-weight: 700;
 }
@@ -458,6 +459,14 @@ button {
 .img-responsive {
     width: 490px;
     object-fit: cover;
+}
+.btn-atomic {
+    background-color: #303030;
+}
+
+.font-modif {
+    font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
@@ -916,11 +925,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1149,7 +1158,7 @@ h4 {
     .partner-bloc {
         flex-direction: column;
         margin-left: 60px;
-
+        height: 150px;
     }
 
 }
